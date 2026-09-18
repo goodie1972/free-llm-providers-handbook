@@ -1,0 +1,68 @@
+name: 推荐新的免费平台
+description: 你发现了一个本手册还没收录的免费 LLM / AI 算力入口
+title: "[新平台] 平台名"
+labels: ["new-provider", "good-first-issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        提交前请先确认：**这个平台和已收录的哪一个最像？差异在哪？**
+        （避免重复收录，也方便维护者判断该不该单开一篇。）
+  - type: input
+    id: name
+    attributes:
+      label: 平台名
+    validations:
+      required: true
+  - type: input
+    id: site
+    attributes:
+      label: 官网
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: form
+    attributes:
+      label: 免费档形式
+      options:
+        - 永久免费层
+        - 注册送额度（一次性）
+        - 每日/每月重置额度
+        - 企业赞助 / 黑客松赠送
+        - 开源权重可自部署
+        - 其他（在下方说明）
+    validations:
+      required: true
+  - type: input
+    id: rate-limit
+    attributes:
+      label: 限流情况
+      placeholder: 例如：20 RPM / 每日 1000 次 / 未公示
+    validations:
+      required: true
+  - type: dropdown
+    id: card
+    attributes:
+      label: 是否需要信用卡 / 实名
+      options:
+        - 完全不需要
+        - 需要邮箱即可
+        - 需要信用卡（可能预授权）
+        - 需要实名认证
+    validations:
+      required: true
+  - type: textarea
+    id: diff
+    attributes:
+      label: 和已收录平台最像的是哪个？差异在哪？
+      placeholder: 例如：和 unorouter 一样是聚合，但它主打 XXX
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 可核实来源（URL）
+      placeholder: 官网定价页 / 文档 / 你的实测截图说明
+    validations:
+      required: true

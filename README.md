@@ -72,6 +72,8 @@
 /assets/screenshots/    各项目自有截图（本机访问后实拍，不搬别家图）
 /assets/images/         自绘图表（Pillow 生成的额度速查表等）
 /data/                  免费LLM对照表.xlsx + invites.md（邀请码汇总）
+/scripts/               check_md_links.py —— 相对链接校验（提交前请跑）
+/.github/               Issue 模板（数据过期 / 新平台推荐 / 站点失效）+ PR 检查清单
 README.md               总览 + 篇目索引 + 数据日期 + 更新日志
 CONTRIBUTING.md         投稿 / 纠错规范
 ```
