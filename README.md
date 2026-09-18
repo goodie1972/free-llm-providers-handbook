@@ -70,10 +70,14 @@
 ```
 /articles/              每篇 markdown 正文（就是上面索引里那些）
 /assets/screenshots/    各项目自有截图（本机访问后实拍，不搬别家图）
+/assets/images/         自绘图表（Pillow 生成的额度速查表等）
 /data/                  免费LLM对照表.xlsx + invites.md（邀请码汇总）
 README.md               总览 + 篇目索引 + 数据日期 + 更新日志
 CONTRIBUTING.md         投稿 / 纠错规范
 ```
+
+> 提交前请跑一遍 `scripts/check_md_links.py`（在贡献指南里有说明）：**相对链接写错在本地是看不出来的**，
+> 典型错法是文件在 `data/` 下却写 `articles/xxx.md`，GitHub 上会 404。
 
 ---
 
