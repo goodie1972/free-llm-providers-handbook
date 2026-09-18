@@ -6,8 +6,8 @@
 
 | 平台 | 邀请码 / 链接 | 奖励说明 | 首次登记 | 相关篇目 |
 |---|---|---|---|---|
-| 硅基流动 SiliconFlow | 邀请码 `gE6CdPRU`；链接 https://cloud.siliconflow.cn/i/gE6CdPRU | 双方各得额外额度奖励 | 2026-08-30 | [02](articles/02-魔搭与硅基流动.md) |
-| unorouter | 链接 https://unorouter.com/register?aff=8j6H （`?aff=8j6H`） | 注册双方可能有奖励，以官网实时政策为准 | 2026-09-15 | [10](articles/10-unorouter专篇.md) |
+| 硅基流动 SiliconFlow | 邀请码 `gE6CdPRU`；链接 https://cloud.siliconflow.cn/i/gE6CdPRU | 双方各得额外额度奖励 | 2026-08-30 | [02](../articles/02-魔搭与硅基流动.md) |
+| unorouter | 链接 https://unorouter.com/register?aff=8j6H （`?aff=8j6H`） | 注册双方可能有奖励，以官网实时政策为准 | 2026-09-15 | [10](../articles/10-unorouter专篇.md) |
 
 ## 有推荐机制但无「码」
 
@@ -20,7 +20,7 @@
 | 平台 | 说明 |
 |---|---|
 | freellmapi | 无邀请码。其 Premium 用的是 `fla_` 前缀**激活码**，属于付费/授权体系，不是邀请奖励，不要混为一谈 |
-| 商汤 sensenova / agnes / apifreellm | 无邀请码（见 [03 篇](articles/03-国内小众免费站实测.md)） |
+| 商汤 sensenova / agnes / apifreellm | 无邀请码（见 [03 篇](../articles/03-国内小众免费站实测.md)） |
 
 ---
 
